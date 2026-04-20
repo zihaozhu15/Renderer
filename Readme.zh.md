@@ -1,13 +1,13 @@
-## Renderer
+# Renderer
 
-# 环境配置
+## 环境配置
 
 - 操作系统: `Windows 10`
 - 编译器: `MSVC(Visual Studio 2019)`
 - `Opengl 3.3` 以上
 - `CMake 3.18`以上
 
-# 编译说明
+## 编译说明
 
 1. 打开`./code`所在文件夹->右键->使用`Visual Studio`打开
 2. 项目->生成 CMake 缓存
@@ -24,7 +24,7 @@
 
 _注: 不喜欢用 CMake 的同学可以通过 CMake 生成 vs 工程使用_
 
-# zidingy
+## zidingy
 
 本项目使用了一个简单的插件注册系统
 
@@ -64,31 +64,31 @@ _注: 不喜欢用 CMake 的同学可以通过 CMake 生成 vs 工程使用_
    ```
 7. 重新生成 CMake 缓存并且重新编译插件
 
-# 使用方法
+## 使用方法
 
-## 导入场景文件
+### 导入场景文件
 
 ![](./doc/image/rdm_4.png)
 
-## 修改材质信息
+### 修改材质信息
 
 ![](./doc/image/rdm_5.png)
 
-## 修改场景参数
+### 修改场景参数
 
 ![](doc/image/rdm_6.png)
 
-## 选择渲染方法并渲染
+### 选择渲染方法并渲染
 
 ![](./doc/image/rdm_7.png)
 
-## 切换渲染结果/快速预览
+### 切换渲染结果/快速预览
 
 ![](./doc/image/rdm_8.png)
 
-# 样例算法(持续添加...)
+## 样例算法(持续添加...)
 
-## Ray Cast
+### Ray Cast
 
 向场景中投射光线, 计算直接光照. 计算方法为(Phong, 忽略了环境光)
 
@@ -101,7 +101,7 @@ $$
 渲染结果:
 ![](doc/image/rdm_9.png)
 
-## Simple Path Tracer
+### Simple Path Tracer
 
 使用 Monte Carlo 方法计算光照, 不支持网格, 仅支持漫反射材质
 
@@ -110,7 +110,7 @@ $$
 渲染结果(采样数 2048)
 ![](./doc/image/rdm_10.png)
 
-## Path Tracing 导体材质(代码未提供，需要自己实现)
+### Path Tracing 导体材质(代码未提供，需要自己实现)
 
 导体材质，即金属，具有镜面反射效果。
 
@@ -121,21 +121,21 @@ $$
 
 ![](./doc/image/rdm_11.png)
 
-## Path Tracing 绝缘体材质
+### Path Tracing 绝缘体材质
 
 绝缘体，例如玻璃
 
 ![](./doc/image/rdm_12.png)
 
-## Path Tracing 实现 Enviroment Map 光源
+### Path Tracing 实现 Enviroment Map 光源
 
 ![](./doc/image/rdm_13.png)
 
-## Photon Mapping
+### Photon Mapping
 
 ![](./doc/image/23.png)
 ![](./doc/image/5.png)
 
-# 其他
+## 其他
 
 [代码说明(intro.md)](./doc/intro.md)
