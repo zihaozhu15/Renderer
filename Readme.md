@@ -1,4 +1,4 @@
-## 3D Rendering System for Computer Graphics Course at Nankai University
+## 3D Rendering System
 
 # 环境配置
 
