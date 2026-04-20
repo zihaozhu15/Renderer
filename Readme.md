@@ -26,7 +26,7 @@
 
 *Note: Users who prefer not to use CMake can generate a VS project via CMake.*
 
-# How to write my own rendering algorithm (Important)
+# Write new rendering algorithm
 
 This project uses a simple plugin registration system.
 
