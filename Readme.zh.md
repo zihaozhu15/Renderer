@@ -1,4 +1,4 @@
-## 3D Rendering System
+## Renderer
 
 # 环境配置
 
@@ -24,7 +24,7 @@
 
 _注: 不喜欢用 CMake 的同学可以通过 CMake 生成 vs 工程使用_
 
-# 如何写我自己的渲染算法(重要)
+# zidingy
 
 本项目使用了一个简单的插件注册系统
 
