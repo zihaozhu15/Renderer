@@ -2,14 +2,14 @@
 
 [English](./Readme.md) | [简体中文](./Readme.zh.md)
 
-# Environment
+## Environment
 
 - Operating System: `Windows 10`
 - Compiler: `MSVC(Visual Studio 2019)`
 - `OpenGL 3.3` or higher
 - `CMake 3.18` or higher
 
-# Compilation
+## Compilation
 
 1. Open the folder where `./code` is located -> Right Click -> Open with `Visual Studio`
 2. Project -> Generate CMake Cache
@@ -26,7 +26,7 @@
 
 *Note: Users who prefer not to use CMake can generate a VS project via CMake.*
 
-# Write new rendering algorithm
+## Write new rendering algorithm
 
 This project uses a simple plugin registration system.
 
@@ -65,52 +65,52 @@ This project uses a simple plugin registration system.
    ```
 7. Regenerate the CMake cache and recompile the plugin
 
-# Usage
+## Usage
 
-## Import Scene File
+### Import Scene File
 
 ![](./doc/image/rdm_4.png)
 
-## Modify Material Information
+### Modify Material Information
 
 ![](./doc/image/rdm_5.png)
 
-## Modify Scene Parameters
+### Modify Scene Parameters
 
 ![](doc/image/rdm_6.png)
 
-## Select Rendering Method and Render
+### Select Rendering Method and Render
 
 ![](./doc/image/rdm_7.png)
 
-## Switch Rendering Results / Fast Preview
+### Switch Rendering Results / Fast Preview
 
 ![](./doc/image/rdm_8.png)
 
-# Example Algorithms
+## Example Algorithms
 
-## Ray Cast
+### Ray Cast
 
 ![](doc/image/rdm_9.png)
 
-## Simple Path Tracer
+### Simple Path Tracer
 
 ![](./doc/image/rdm_10.png)
 
-## Path Tracing 
+### Path Tracing 
 
 ![](./doc/image/rdm_11.png)
 
-## Path Tracing
+### Path Tracing
 
 
 ![](./doc/image/rdm_12.png)
 
-## Path Tracing (Enviroment Map)
+### Path Tracing (Enviroment Map)
 
 ![](./doc/image/rdm_13.png)
 
-## Photon Mapping
+### Photon Mapping
 
 ![](./doc/image/23.png)
 ![](./doc/image/5.png)
