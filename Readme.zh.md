@@ -1,5 +1,7 @@
 # Renderer
 
+[English](./Readme.md) | [简体中文](./Readme.zh.md)
+
 ## 环境配置
 
 - 操作系统: `Windows 10`
