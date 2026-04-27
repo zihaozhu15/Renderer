@@ -13,18 +13,9 @@
 
 1. Open the folder where `./code` is located -> Right Click -> Open with `Visual Studio`
 2. Project -> Generate CMake Cache
-
-   ![](./doc/image/rdm_1.png)
-
 3. Build -> Rebuild All
-
-   ![](./doc/image/rdm_2.png)
-
 4. Select Startup Item
 
-   ![](./doc/image/rdm_3.png)
-
-*Note: Users who prefer not to use CMake can generate a VS project via CMake.*
 
 ## Write new rendering algorithm
 
@@ -56,7 +47,7 @@ This project uses a simple plugin registration system.
        }
    };
    ```
-6. 注册插件
+6. Register
    ```C++
     // Parameter 1 -> Plugin name (Do not use non-ASCII characters)
     // Parameter 2 -> Plugin description
